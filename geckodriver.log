@@ -535,3 +535,167 @@ a._handleTimeout@https://storage.mds.yandex.net/get-bstor/10162111/c6e9f593-9b35
 Dynamically enable window occlusion 1
 [Parent 10272, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
 [RDD 6176, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1691669011440	geckodriver	INFO	Listening on 127.0.0.1:55876
+1691669014487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55877" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofileEozaCi"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691669014728	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691669014780	Marionette	INFO	Listening on port 55887
+WebDriver BiDi listening on ws://127.0.0.1:55877
+Read port: 55887
+1691669014936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55877/devtools/browser/1903fae9-3057-4193-9037-923c06026650
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1691669018712	Marionette	INFO	Stopped listening on port 55887
+JavaScript warning: https://yastatic.net/vas-bundles/839519/bundles-es2017/loader.bundle.js, line 1: Script terminated by timeout at:
+t@https://yastatic.net/vas-bundles/839519/bundles-es2017/loader.bundle.js:1:680926
+
+Dynamically enable window occlusion 1
+[Parent 15972, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[RDD 5928, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1691669026951	geckodriver	INFO	Listening on 127.0.0.1:55948
+1691669030016	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "55949" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofile2X5CWE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691669030256	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691669030310	Marionette	INFO	Listening on port 55957
+WebDriver BiDi listening on ws://127.0.0.1:55949
+Read port: 55957
+1691669030469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55949/devtools/browser/9e7c8a1a-1e6a-483f-9f9b-19fc74e79b0b
+JavaScript warning: https://st.top100.ru/top100/top100.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st.top100.ru/top100/top100.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1691669035130	Marionette	INFO	Stopped listening on port 55957
+JavaScript warning: https://yastatic.net/vas-bundles/839519/bundles-es2017/loader.bundle.js, line 1: Script terminated by timeout at:
+t@https://yastatic.net/vas-bundles/839519/bundles-es2017/loader.bundle.js:1:680926
+
+Dynamically enable window occlusion 1
+[Parent 13280, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[RDD 16592, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1691669069133	geckodriver	INFO	Listening on 127.0.0.1:56048
+1691669072177	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56049" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofileQCvMvW"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691669072407	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691669072458	Marionette	INFO	Listening on port 56057
+WebDriver BiDi listening on ws://127.0.0.1:56049
+Read port: 56057
+1691669072617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56049/devtools/browser/31fa0594-d809-4ebc-a46f-b549383efffa
+JavaScript warning: https://st.top100.ru/top100/top100.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1691669074160	Marionette	INFO	Stopped listening on port 56057
+Dynamically enable window occlusion 1
+1691669127865	geckodriver	INFO	Listening on 127.0.0.1:56167
+1691669130922	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56168" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofileXSZIPB"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691669131170	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691669131224	Marionette	INFO	Listening on port 56175
+WebDriver BiDi listening on ws://127.0.0.1:56168
+Read port: 56175
+1691669131383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56168/devtools/browser/f9e54178-8274-43fa-815f-c5aaed43c3d6
+JavaScript warning: https://st.top100.ru/top100/top100.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1691669133184	Marionette	INFO	Stopped listening on port 56175
+Dynamically enable window occlusion 1
+1691669143198	geckodriver	INFO	Listening on 127.0.0.1:56250
+1691669146265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56251" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofileSOTrCF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691669146520	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691669146571	Marionette	INFO	Listening on port 56260
+WebDriver BiDi listening on ws://127.0.0.1:56251
+Read port: 56260
+1691669146721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56251/devtools/browser/13af40cd-4dd0-40e3-9591-16fc7012ce98
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1691669149013	Marionette	INFO	Stopped listening on port 56260
+[Child 15068, MediaDecoderStateMachine #1] WARNING: Decoder=15195754400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 15068, MediaDecoderStateMachine #1] WARNING: Decoder=15195754400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+[Parent 14272, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[RDD 3052, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1691669243336	geckodriver	INFO	Listening on 127.0.0.1:56351
+1691669246391	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56352" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofileUzYg8H"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691669246633	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691669246686	Marionette	INFO	Listening on port 56359
+WebDriver BiDi listening on ws://127.0.0.1:56352
+Read port: 56359
+1691669246840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56352/devtools/browser/356ba237-907b-475b-97b2-32fec3c737ab
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1691669248658	Marionette	INFO	Stopped listening on port 56359
+Dynamically enable window occlusion 1
+1691669341278	geckodriver	INFO	Listening on 127.0.0.1:56488
+1691669344366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56489" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofileZUmELM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691669344607	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691669344661	Marionette	INFO	Listening on port 56496
+WebDriver BiDi listening on ws://127.0.0.1:56489
+Read port: 56496
+1691669344812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56489/devtools/browser/317ad3c6-a136-4ae9-915f-a533dd46b73b
+JavaScript warning: https://st.top100.ru/top100/top100.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1691669346621	Marionette	INFO	Stopped listening on port 56496
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 155: Script terminated by timeout at:
+C/<@https://mc.yandex.ru/metrika/tag.js:155:225
+
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/PictureInPicture.sys.mjs, line 556: TypeError: browser is null
+[Parent 10984, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+[RDD 13192, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+1691670434832	geckodriver	INFO	Listening on 127.0.0.1:56982
+1691670437897	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56983" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\koany\\AppData\\Local\\Temp\\rust_mozprofileBmmMGG"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691670438127	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1691670438176	Marionette	INFO	Listening on port 56990
+WebDriver BiDi listening on ws://127.0.0.1:56983
+Read port: 56990
+1691670438330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56983/devtools/browser/0f69d3d1-5048-400c-9a3c-b74dd16e2862
+JavaScript warning: https://st.top100.ru/top100/top100.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1691670439880	Marionette	INFO	Stopped listening on port 56990
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/PictureInPicture.sys.mjs, line 556: TypeError: browser is null
