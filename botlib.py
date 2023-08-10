@@ -19,8 +19,8 @@ def weather():
     pogoda1 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div[4]/a').text
     pogoda2 = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div[6]').text
     pogoda = (pogoda1 + '\n' + pogoda2).split('\n')
-    print('\nПогода в', city)
-    pogodastring = 'Температура: ' + pogoda[0] + ' (ощущается ' + pogoda[3] + ')' + \
+    pogodastring = city + \
+                   '\nТемпература: ' + pogoda[0] + ' (ощущается ' + pogoda[3] + ')' + \
                    '\nНебо: ' + pogoda[1] + \
                    '\nВетер: ' + pogoda[4] + \
                    '\nВлажность: ' + pogoda[5] + \
@@ -33,13 +33,9 @@ def anekdot():
     driver = driverprepare()
     print('Ищем анекдот...')
     driver.get('https://www.anekdot.ru/random/anekdot/')
-    anekdotes = driver.find_elements(By.CLASS_NAME, 'topicbox')
-    anekdotes.pop(0)
+    anekdotes = driver.find_elements(By.CLASS_NAME, 'text')
     anekdot = random.choice(anekdotes)
-    text = anekdot.find_element(By.CLASS_NAME, 'text').text
+    text = anekdot.text
+    print(text)
     driver.close()
     return text
-
-
-
-
