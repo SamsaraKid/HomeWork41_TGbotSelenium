@@ -24,10 +24,8 @@ markup.row('/start', '/stop')
 @bot.message_handler(commands=['start'])
 def start_mes(info):
     print(info.from_user.username, 'послал(а) команду /start')
-    # выводим клавиатуру в чате
-    bot.send_message(info.chat.id, 'Выберите команду', reply_markup=keyboard)
-    # создаём меню
-    bot.send_message(info.chat.id, 'Или воспользуйтесь меню', reply_markup=markup)
+    bot.send_message(info.chat.id, 'Выберите команду', reply_markup=keyboard)  # выводим клавиатуру в чате
+    bot.send_message(info.chat.id, 'Или воспользуйтесь меню', reply_markup=markup)  # создаём меню
 
 # скрываем меню
 @bot.message_handler(commands=['stop'])
@@ -75,7 +73,6 @@ def callback(call):
     except:
         bot.send_message(call.message.chat.id, 'Произошла ошибка, попробуйте ещё раз')
     bot.send_message(call.message.chat.id, 'Выберите команду', reply_markup=keyboard)
-
 
 while True:
     try:

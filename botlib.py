@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 import random
 
+
 def driverprepare():
     print('Загружаем драйвер...')
     options = Options()
@@ -10,6 +11,7 @@ def driverprepare():
     driver = webdriver.Firefox(options=options)
     print('Драйвер загружен')
     return driver
+
 
 def weather():
     driver = driverprepare()
@@ -28,6 +30,7 @@ def weather():
     print(pogodastring)
     driver.close()
     return pogodastring
+
 
 def anekdot():
     driver = driverprepare()
