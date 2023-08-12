@@ -21,7 +21,6 @@ def weather():
         city = driver.find_element(By.XPATH, '//*[@id="main_title"]').text
         pogoda1 = driver.find_element(By.CLASS_NAME, 'fact__basic').text
         pogoda2 = driver.find_element(By.CLASS_NAME, 'fact__props').text
-
         pogoda = (pogoda1 + '\n' + pogoda2).split('\n')
         pogodastring = city + \
                        '\nТемпература: ' + pogoda[0] + ' (ощущается ' + pogoda[3] + ')' + \
