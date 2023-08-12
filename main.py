@@ -52,7 +52,8 @@ def message(info):
         else:
             mes = 'Неверная команда'
         bot.send_message(info.chat.id, mes)
-    except:
+    except Exception as e:
+        print(e)
         bot.send_message(info.chat.id, 'Произошла ошибка, попробуйте ещё раз')
     bot.send_message(info.chat.id, 'Выберите команду', reply_markup=keyboard)
 
@@ -70,7 +71,8 @@ def callback(call):
         else:
             mes = 'Неверная команда'
         bot.send_message(call.message.chat.id, mes)
-    except:
+    except Exception as e:
+        print(e)
         bot.send_message(call.message.chat.id, 'Произошла ошибка, попробуйте ещё раз')
     bot.send_message(call.message.chat.id, 'Выберите команду', reply_markup=keyboard)
 
